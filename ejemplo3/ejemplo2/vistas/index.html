@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<h1>CHEF RESTAURANT</h1>
+	<div class="contenedor">
+		<header>
+			
+			<nav>
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#seccion1">Menu</a></li>
+					<li><a href="#seccion2">Permitenos conocerte</a></li>
+					<li><a href="#acerca-de">Acerca de</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="inicio">
+				<h2>Bienvenidos!!</h2>
+				<p>¡Bienvenidos a "CHEF"! Sumérgete en una experiencia 
+					gastronómica única donde los sabores se entrelazan para deleitar tus sentidos. 
+					En nuestro acogedor restaurante, fusionamos lo mejor de todas las partes del mundo</p>
+			</section>
+
+			<section id="seccion1">
+				<h2>Menu</h2>
+				<p>Nuestras especialidades:</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Plato fuerte</th>
+							<th>Postres</th>
+							<th>Jugos</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="../imagenes/comida-economica-1080x675.jpg" alt="Imagen 1"></td>
+               				<td><img src="../imagenes/10.-Crepas.jpg" alt="Imagen 2"></td>
+                			<td><img src="../imagenes/jugo-de-naranja-destacado.jpg" alt="Imagen 3"></td>
+						</tr>
+						<tr>
+							<td>Hamburguesa completa con huevo, tocino y vegetales. 
+								$25.50</td>
+							<td>Crepes de chcolate o frutos rojos. 
+								$30.00</td>
+							<td>Jugo de naranja. 
+								$5.25</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table>
+					<tbody>
+						<tr>
+							<td><img src="../imagenes/bupa_598072389.jpg" alt="Imagen 1"></td>
+               				<td><img src="../imagenes/volcan_de_chocolate2.jpg" alt="Imagen 2"></td>
+                			<td><img src="../imagenes/Fresh-Grape-Juice-1.jpg" alt="Imagen 3"></td>
+						</tr>
+						<tr>
+							<td>Salmon con vegetales salteados. 
+								$40.50</td>
+							<td>Volcan de chocolate. 
+								$25.50</td>
+							<td>Jugo de Uva. 
+								$4.25</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<table>
+					<tbody>
+						<tr>
+							<td><img src="../imagenes/depositphotos_208215132-stock-photo-homemade-peruvian-salchipapa-fries-sausage.jpg" alt="Imagen 1"></td>
+               				<td><img src="../imagenes/torta_tres_leches_8910_orig.jpg" alt="Imagen 2"></td>
+                			<td><img src="../imagenes/te-helado.jpg" alt="Imagen 3"></td>
+						</tr>
+						<tr>
+							<td>Salchipapa completa. 
+								$30.50</td>
+							<td>Dulce de tres leches. 
+								$25.50</td>
+							<td>Te Helado. 
+								$3.25</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="seccion2">
+				<h2>Formulario</h2>
+				<p>Recibe nuestras promociones</p>
+				<form action="procesar.php" method="post">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+
+					<label for="apellido">Apellidos:</label>
+					<input type="text" id="nombre" name="nombre" required>
+
+					<label for="email">Correo electrónico:</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+
+			<section id="acerca-de">
+				<h2>Acerca de Nosotros</h2>
+				<p>Nuestra visión en Restaurante Tokimitsu es convertirnos en un punto de referencia en 
+					nuestra comunidad para aquellos que buscan una experiencia gastronómica única y deliciosa.
+					Nos esforzamos por ser reconocidos por nuestra creatividad culinaria y nuestro compromiso con la calidad, 
+					proporcionando a nuestros clientes un ambiente acogedor y una atención excepcional en cada visita. 
+
+					nuestra misión es ofrecer una experiencia culinaria memorable que deleite los sentidos y satisfaga los paladares más exigentes. 
+					Nos comprometemos a utilizar ingredientes frescos y de alta calidad en la preparación de nuestros platos, 
+					ofreciendo una variedad de opciones que reflejen la diversidad de gustos y preferencias de nuestros clientes.
+					Además, nos esforzamos por crear un ambiente cálido y acogedor donde todos se sientan bienvenidos y atendidos.
+
+					Prueba recrear nuestras recetas!!:
+				
+				</p>
+				<ul>
+					<li><a href="https://www.recetasgratis.net/receta-de-torta-tres-leches-8910.html">Receta 1</a></li>
+        			<li><a href="https://www.recetasgratis.net/receta-de-arroz-cantones-chino-26260.html">Receta 2</a></li>
+        			<li><a href="https://www.recetasgratis.net/receta-de-volcan-de-chocolate-esponjoso-52331.html">Receta 3</a></li>
+				</ul>
+			</section>
+		</main>
+	</div>
+    <footer>
+        <p>&copy; 2024 Mi sitio web</p>
+    </footer>
+</body>
+</html>
